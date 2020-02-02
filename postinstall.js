@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 const root = process.cwd();
 
-var link = root + '/node_modules/~/~';
+var link = root + '/~';
 console.log(link);
 try {
   path.resolve(fs.realpathSync(link));
